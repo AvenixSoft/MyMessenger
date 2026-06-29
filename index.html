@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>MyMessenger - Beta</title>
+<title>MyMessenger</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
 :root{
@@ -308,6 +308,8 @@ html,body{height:100%;width:100%;background:var(--bg);color:var(--text-primary);
   padding:0 4px;display:flex;align-items:center;gap:4px;
 }
 .message-row.sent .msg-time{color:#5b8aae;}
+.msg-tick{display:inline-flex;align-items:center;color:var(--text-muted);}
+.msg-tick.read{color:var(--primary);}
 
 .bubble-wrap{display:flex;align-items:center;gap:6px;max-width:100%;}
 .message-row.sent .bubble-wrap{flex-direction:row-reverse;}
@@ -398,7 +400,7 @@ html,body{height:100%;width:100%;background:var(--bg);color:var(--text-primary);
           <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" fill="rgba(255,255,255,0.9)"/>
         </svg>
       </div>
-      <span class="brand-text">My<span>Messenger - Beta</span></span>
+      <span class="brand-text">My<span>Messenger</span></span>
     </div>
 
     <div class="auth-tabs" role="tablist">
